@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voyage AI — Budget Travel Planner</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="noise"></div>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+<main class="app">
+
+    <!-- HEADER -->
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="brand-mark">
+                <span>✈</span>
+            </div>
+
+            <div>
+                <h1>TravelMind</h1>
+                <p>Budget Travel Intelligence</p>
+            </div>
+
+        </div>
+
+        <div class="nav-right">
+
+            <div class="system-pill">
+                <span class="system-dot"></span>
+                SYSTEM ONLINE
+            </div>
+
+            <div class="version">
+                v1.0
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <div class="eyebrow">
+                AI TRAVEL PLANNING
+            </div>
+
+            <h2>
+                Travel smarter.
+                <span>Spend less.</span>
+            </h2>
+
+            <p>
+                Give us your destination and preferences.
+                Voyage AI researches the web, builds your itinerary,
+                audits the budget and improves the plan automatically.
+            </p>
+
+        </div>
+
+
+        <div class="hero-orbit">
+
+            <div class="orbit-ring ring-one"></div>
+            <div class="orbit-ring ring-two"></div>
+            <div class="orbit-ring ring-three"></div>
+
+            <div class="orbit-center">
+                <span>✈</span>
+            </div>
+
+            <div class="orbit-dot dot-one"></div>
+            <div class="orbit-dot dot-two"></div>
+            <div class="orbit-dot dot-three"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SEARCH -->
+    <section class="planner-box">
+
+        <div class="planner-top">
+
+            <div>
+
+                <div class="mini-label">
+                    YOUR TRIP
+                </div>
+
+                <h3>
+                    Where are you going?
+                </h3>
+
+            </div>
+
+
+            <div class="budget-tag">
+                <span>₹</span>
+                HOTEL MAX ₹3,000 / NIGHT
+            </div>
+
+        </div>
+
+
+        <div class="query-area">
+
+            <textarea
+                id="question"
+                rows="2"
+                maxlength="300"
+                placeholder="Example: Plan a 5 day budget trip to Goa for two people..."
+            ></textarea>
+
+
+            <button id="planBtn" type="button">
+
+                <span class="button-text">
+                    Makes a Plan
+                </span>
+
+                <span class="button-icon">
+                    ✈
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <div class="planner-hints">
+
+            <span>Budget hotels</span>
+            <span>Affordable transport</span>
+            <span>Low-cost activities</span>
+            <span>Live web research</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- PIPELINE -->
+  
+
+
+    <!-- MAIN GRID -->
+    <section class="main-grid">
+
+
+        <!-- ACTIVITY -->
+        
+
+
+           
+
+        </div>
+
+
+        <!-- REVIEW -->
+    
+
+    </section>
+
+
+    <!-- FINAL ANSWER -->
+    <section class="result-card">
+
+        <div class="result-header">
+
+            <div>
+
+                <span class="mini-label">
+                    Planning
+                </span>
+
+                <h3>
+                    Your personalized trip
+                </h3>
+
+            </div>
+
+
+            <div class="result-location">
+
+                <span class="location-dot"></span>
+
+                AI GENERATED
+
+            </div>
+
+        </div>
+
+
+        <div
+            id="answerBox"
+            class="answer-container empty-answer"
+        >
+
+            <div class="answer-empty">
+
+                <div class="answer-plane">
+                    ✈
+                </div>
+
+                <h4>
+                    Your itinerary will appear here
+                </h4>
+
+                <p>
+                    Submit a destination to start the
+                    travel planning agents.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            VOYAGE AI
+        </div>
+
+        <span>•</span>
+
+        <div>
+            LANGGRAPH
+        </div>
+
+        <span>•</span>
+
+        <div>
+            GROQ
+        </div>
+
+        <span>•</span>
+
+        <div>
+            TAVILY
+        </div>
+
+    </footer>
+
+</main>
+
+
+<script src="/static/Script.js"></script>
+
+</body>
+</html>

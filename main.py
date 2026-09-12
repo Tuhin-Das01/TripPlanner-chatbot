@@ -387,6 +387,7 @@ Describe the afternoon activity.
 
 🌆 Evening:
 Describe the evening activity.
+
 🏨 Hotel: 
 first day hotel mention in this budget
 
@@ -401,6 +402,7 @@ Describe the afternoon activity.
 
 🌆 Evening:
 Describe the evening activity.
+
 🏨 Hotel:
  second day hotel mention 
 
@@ -415,6 +417,7 @@ Describe the afternoon activity.
 
 🌆 Evening:
 Describe the evening activity.
+
 🏨 Hotel:
 third day hotel mention
 
